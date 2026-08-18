@@ -128,7 +128,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/niraj-bhusal-164503407/?isSelfProfile=false"
+                href="https://www.linkedin.com/in/niraj-bhusal-3a23a5405/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"

@@ -11,6 +11,7 @@ import {
   Briefcase,
   Mail,
 } from "lucide-react";
+import { link } from "framer-motion/client";
 
 export default function Navbar() {
   // -----------------------------
@@ -54,6 +55,7 @@ export default function Navbar() {
       name: "Home",
       id: "home",
       icon: <Home size={18} />,
+      
     },
     {
       name: "About",

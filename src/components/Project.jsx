@@ -175,8 +175,6 @@ export default function Projects() {
                   border-t border-gray-200 dark:border-gray-800"
                 >
 
-                 
-
                   <a
                     href={project.live}
                     target="_blank"
