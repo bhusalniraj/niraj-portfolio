@@ -47,9 +47,7 @@ export default function Hero() {
             <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300">
               Full Stack{" "}
               <span className="text-green-500">
-                Developer 
-
-               
+                Developer
               </span>
             </h2>
 
@@ -62,10 +60,12 @@ export default function Hero() {
             {/* Buttons */}
             <div className="flex flex-wrap gap-4">
 
+            
             </div>
 
             {/* Social Icons */}
-            <div className="flex items-center gap-4 pt-2"> 
+            <div className="flex items-center gap-4 pt-2">
+
 
               <div className="h-px w-16 bg-gray-300 dark:bg-gray-800"></div>
 
@@ -85,7 +85,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-green-500/20 blur-3xl rounded-full"></div>
 
               {/* Profile Card */}
-              <div className="relative w-72 h-72 md:w-96 md:h-96
+              <div className="relative w-72 h-72 md:w-70 md:h-80
                 rounded-3xl
                 bg-gray-100 dark:bg-gray-900
                 border border-gray-200 dark:border-gray-800
@@ -94,15 +94,11 @@ export default function Hero() {
                 shadow-2xl"
               >
 
-                {/* Green Border Circle */}
-                <div className="absolute w-64 h-64 md:w-80 md:h-80
-                  rounded-full border-2 border-green-500/40"
-                ></div>
 
                 {/* Developer Icon */}
                 <div className="relative flex flex-col items-center gap-4">
 
-                 
+                  
 
                   <div className="text-center">
                     <p className="text-xl font-bold">
@@ -110,7 +106,7 @@ export default function Hero() {
                     </p>
 
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      Web Developer 
+                      Web Developer
                     </p>
                   </div>
 
@@ -146,7 +142,7 @@ export default function Hero() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
 
           {[
-            ["2+", "Projects"],
+            ["5+", "Projects"],
             ["6+", "Skills"],
             ["1+", "Years Learning"],
             ["100%", "Passion"],
